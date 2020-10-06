@@ -1,7 +1,5 @@
 <template>
-  <div>
      <footer class="container">
-      <p>&copy; Company 2017-2018</p>
+      <p>&copy; Company 2020-2021</p>
     </footer>
-  </div>
 </template>
