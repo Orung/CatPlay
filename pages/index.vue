@@ -18,6 +18,7 @@
       </div>
     </div>
     <hr>
+    <List />
   </div>
 </template>
 
