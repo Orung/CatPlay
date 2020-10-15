@@ -14,7 +14,7 @@ export default function ({ $axios, store, redirect }) {
   $axios.interceptors.request.use(
     function (config) {
       // Set the API_Key on every request if available.
-      if (API_KEY) config.headers.common['x-api-key'] = API_KEY
+      if (API_KEY) config.headers.common['41b9a1b1-a80a-463f-b214-f93adeb6da76'] = API_KEY
       return config
     },
     function (error) {
