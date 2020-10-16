@@ -24,7 +24,16 @@
 
 <script>
 export default {
-layout: 'home'
+layout: 'home',
+methods: {
+  async loadCats() {
+    let response = await this.$axios.get('/images/search', { params: { limit:1, size:"full" } } );
+    console.log("R: ", response)
+  }
+},
+created() {
+  this.loadCats()
+},
 }
 </script>
 
